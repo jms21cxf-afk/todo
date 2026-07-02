@@ -1,0 +1,7 @@
+{
+  "name": "todo",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/generate-firebase-config.js"
+  }
+}

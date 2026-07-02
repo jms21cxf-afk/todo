@@ -8,16 +8,7 @@ import {
   remove,
   onValue,
 } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-database.js";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyD3ca4h1qqRp1raQS8StyucVniojAhy1YQ",
-  authDomain: "me-todo-backend.firebaseapp.com",
-  databaseURL: "https://me-todo-backend-default-rtdb.firebaseio.com/",
-  projectId: "me-todo-backend",
-  storageBucket: "me-todo-backend.firebasestorage.app",
-  messagingSenderId: "1060959141853",
-  appId: "1:1060959141853:web:9b37f81ebd78d2e9b9c034",
-};
+import { firebaseConfig } from "./firebase.config.js";
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);

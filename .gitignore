@@ -1,0 +1,4 @@
+# Firebase 설정 (API 키 포함) — GitHub에 올리지 않음
+firebase.config.js
+.env
+.env.local
